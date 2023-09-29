@@ -193,3 +193,45 @@ aside {
     padding: 20px;
     font-weight: bold;
 }
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 1000px){
+    #logo-ppal{
+        display: inline;
+    }
+
+    #banner-ppal{
+        display: none;
+    }
+
+    nav{
+        position: fixed;
+        padding-left: 200px;
+    }
+
+    aside{
+        /*enlace no tiene contenido -> background: url('http://uribetorres.com/img/fondo_div400x300.png');*/
+        background: url('https://skinait.com/ejemplos/taller_html5/fondo_div400x300.png');
+        background-size: 100% 100%;
+        width: 255px;
+        height: 180px;
+        font-size: .8em;
+        font-family: externa;
+    }
+
+    aside div.texto{
+        font-family: externa;
+    }
+
+    aside div.destacado{
+        margin-top: 10px;
+        text-align: center;
+        font-family: externa;
+    }
+
+    aside li{
+        font-family: externa;
+        font-size: .8em;
+    }
+
+}
