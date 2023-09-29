@@ -1,226 +1,253 @@
 @font-face {
-	font-family:  externa;
-      font-style:   normal;
-      font-weight:  normal;
-src: url('../img/MyriadWebPro-Condensed.ttf');
+    font-family: externa;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../img/MyriadWebPro-Condensed.ttf');
 }
+
 * {
-	margin:      0px;
-      padding:     0px;
-      font-family: 'Trebuchet MS', tahoma
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', tahoma
 }
+
 nav {
-    position:       absolute;
-      top:            0px;
-      left:           40px;
-      height:         150px;
-      width:          550px;
-      margin:         auto;
-      padding-left:   350px;
-      vertical-align: top;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    height: 150px;
+    width: 550px;
+    margin: auto;
+    padding-left: 350px;
+    vertical-align: top;
 }
+
 nav.div.bot_navegacion {
-      height: 	      90px;
-width:          120px;
-margin-right:   10px;
-float:          left;
-vertical-align: top;
+    height: 90px;
+    width: 120px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: top;
 }
+
 #boton1 {
-	background:   rgba(0,200,0,.5);
+    background: rgba(0, 200, 0, .5);
 }
+
 #boton2 {
-	background:   rgba(0,100,155,.5);
+    background: rgba(0, 100, 155, .5);
 }
+
 #boton3 {
-	background:   rgba(0,200,0,.5);
+    background: rgba(0, 200, 0, .5);
 }
+
 #boton4 {
-	background:   rgba(0,100,155,.5);
-} 
-nav img.icon {
-	background: rgba(255,255,255,.3);
-margin:     auto;
-margin-top: 10px;
-padding:    5px;
-display:    block
+    background: rgba(0, 100, 155, .5);
 }
+
 nav img.icon {
-	 display:       block
-       ; background:    rgba(255,255,255,.3)
-       ; margin:        auto
-       ; margin-top:    10px
-       ; padding:       5px
-       ; border:        1px solid rgba(0,0,0,.3)
-       ; border-radius: 50%
+    background: rgba(255, 255, 255, .3);
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    display: block
 }
+
+nav img.icon {
+    display: block;
+    background: rgba(255, 255, 255, .3);
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 50%
+}
+
 nav p.menutxt {
-	color:       black;
-opacity:     .7;
-margin:      auto;
-display:     block;
-text-align:  center;
-font-weight: bold;
-font-family: externa,  'Trebuchet MS', tahoma
-} 
+    color: black;
+    opacity: .7;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: externa, 'Trebuchet MS', tahoma
+}
+
 nav div.bot navegacion {
-	 height:         90px
-       ; width:          120px
-       ; margin-right:   10px
-       ; float:          left
-       ; vertical-align: top
-       ; cursor:         pointer
-       ; border-radius:  0px 0px 10px 10px
+    height: 90px;
+    width: 120px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 0px 0px 10px 10px
 }
+
 #logo-ppal {
-	display:  none
+    display: none
 }
+
 body {
-	background: url('../img/fondo-izq.png') repeat-y
-                  , url('../img/fondo-der.png') right repeat-y;
-margin:     auto 60px auto 60px
+    background: url('../img/fondo-izq.png') repeat-y, url('../img/fondo-der.png') right repeat-y;
+    margin: auto 60px auto 60px
 }
+
 h1 {
-	font-size:     2.2em;
-margin-top:    50px;
-margin-bottom: 25px;
-text-align:    center
+    font-size: 2.2em;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center
 }
+
 h2 {
-	font-size:  1.6em;
-text-align: center
+    font-size: 1.6em;
+    text-align: center
 }
+
 a {
-	text-decoration: none
+    text-decoration: none
 }
+
 p {
-	margin-top:    10px;
-margin-bottom: 10px;
-text-align:    justify
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify
 }
+
 ul {
-        margin-left: 25px
+    margin-left: 25px
 }
+
 article {
-	max-width: 900px;
-margin:    auto
+    max-width: 900px;
+    margin: auto
 }
+
 address {
-        border-top:   3px solid #999999;
-margin:       50px auto 20px auto;
-text-align:   center;
-font-size:    1.2em;
-font-family:  externa,  'Trebuchet MS', tahoma
+    border-top: 3px solid #999999;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: externa, 'Trebuchet MS', tahoma
 }
+
 section.derechos {
-	font-size:   .7em;
-font-family: tahoma;
-margin:      auto
+    font-size: .7em;
+    font-family: tahoma;
+    margin: auto
 }
+
 section.autor {
-	width:          204px;
-border:         3px solid #999999;
-padding:        5px 10px 5px 10px;
-margin:         auto;
-margin-bottom:  10px;
-margin-top:     40px;
-margin-right:   50px;
-font-size:      .7em;
-font-family:    tahoma;
-vertical-align: middle
+    width: 204px;
+    border: 3px solid #999999;
+    padding: 5px 10px 5px 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 50px;
+    font-size: .7em;
+    font-family: tahoma;
+    vertical-align: middle
 }
+
 section.autor div {
-	display: inline-block
+    display: inline-block
 }
 
 section.autor div.cont_imagen {
-	width: 60px
+    width: 60px
 }
+
 section.autor {
-        width:          204px;
-border:         3px solid #999999;
-border-radius:  10px;
-padding:        5px 10px 5px 10px;
-margin:         auto;
-margin-bottom:  10px;
-margin-top:     40px;
-margin-right:   50px;
-font-size:      .7em;
-font-family:    tahoma;
-vertical-align: middle
+    width: 204px;
+    border: 3px solid #999999;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 50px;
+    font-size: .7em;
+    font-family: tahoma;
+    vertical-align: middle
 }
+
 aside {
-	background:  url('https://skinait.com/ejemplos/taller_html5/fondo_div400x300.png');
-width:       360px;
-height:      260px;
-color:       rgba(255,255,255,.7);
-float:       right;
-margin:      0px 0px 15px 15px;
-padding:     20px;
-font-weight: bold
+    background: url('https://skinait.com/ejemplos/taller_html5/fondo_div400x300.png');
+    width: 360px;
+    height: 260px;
+    color: rgba(255, 255, 255, .7);
+    float: right;
+    margin: 0px 0px 15px 15px;
+    padding: 20px;
+    font-weight: bold
 }
+
 nav div.bot_navegacion {
-	height:         90px;
-width:          120px;
-margin-right:   10px;
-float:          left;
-vertical-align: top;
-border-radius:  0px 0px 10px 10px;
--moz-border-radius:    0px 0px 10px 10px;
--webkit-border-radius: 0px 0px 10px 10px;
-cursor:         pointer;
-transition:     height .4s
+    height: 90px;
+    width: 120px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: top;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    transition: height .4s
 }
 
 nav div.bot_navegacion:hover {
-	height:   100px
+    height: 100px
 }
 
 nav p.menutxt {
-	color:       black;
-opacity:     .7;
-margin:      auto;
-display:     block;
-text-align:  center;
-font-weight: bold;
-transition:  padding  .4s;
-font-family: externa,  'Trebuchet MS', tahoma
+    color: black;
+    opacity: .7;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    transition: padding .4s;
+    font-family: externa, 'Trebuchet MS', tahoma
 }
 
 
 nav div.bot_navegacion:hover p {
-	padding-top: 10px
+    padding-top: 10px
 }
+
 nav img.icon {
-	background:     rgba(255,255,255,.3);
-margin:        auto;
-margin-top:    10px;
-padding:       5px;
-border:        1px solid rgba(0,0,0,.3);
-border-radius: 50% ;
-box-shadow:    0px 0px 0px 20px rgba(255,255,255,0);
-display:       block;
-transition:    box-shadow .2s
+    background: rgba(255, 255, 255, .3);
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0);
+    display: block;
+    transition: box-shadow .2s
 }
 
 nav div.bot_navegacion:hover img {
-	box-shadow: 0px 0px 0px 0px rgba(255,255,255,.5)
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .5)
 }
+
 nav div.bot_navegacion {
-	height:         90px;
-width:          120px;
-margin-top:     -20px;
-margin-right:   10px;
-float:          left;
-vertical-align: top;
-border-radius:  0px 0px 10px 10px ;
--moz-border-radius:    0px 0px 10px 10px;
--webkit-border-radius: 0px 0px 10px 10px;
-cursor:             pointer;
-transition:         height .4s;
--moz-transition:    height .4s;
--webkit-transition: height .4s;
-transform:          rotate(-15deg)
+    height: 90px;
+    width: 120px;
+    margin-top: -20px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: top;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    transition: height .4s;
+    -moz-transition: height .4s;
+    -webkit-transition: height .4s;
+    transform: rotate(-15deg)
 }
 
 /*@media screen and (max-width: 1000px) {
